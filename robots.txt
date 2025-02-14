@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://codicegigas.github.io//darksidehacker//sitemap.xml
+User-agent: * Disallow: Sitemap: https://gusman.me/sitemap.xml
