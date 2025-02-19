@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "";
               },
-            },{id: "post-graduation-of-m-sc-information-sciences-and-technologies",
+            },{id: "post-how-to-generate-ssh-pair-keys",
+      
+        title: "How to generate ssh pair keys",
+      
+      description: "How to generate ssh pair keys",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/code/";
+        
+      },
+    },{id: "post-graduation-of-m-sc-information-sciences-and-technologies",
       
         title: "Graduation of M.Sc Information Sciences and Technologies",
       
@@ -66,7 +77,7 @@ ninja.data = [{
           title: 'Course: Jetson Nano for Computer Vision',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/projects/jetson_nano_computer_vision";
+              window.location.href = "/projects/jetson_nano_computer_vision/";
             },},{id: "projects-svarm-uami",
           title: 'SVARM-UAMI',
           description: "Sistema de visión artificial para el reconocimiento de matriculas vehiculares de la UAMI",
