@@ -13,4 +13,3 @@ nav_order: 6
 - How to use a Desfibrillator for nurses
 - How to use an Electrocardiogram for nurses
 - How to use an anesthesia machine & medical ventilator
-

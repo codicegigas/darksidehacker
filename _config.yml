@@ -7,12 +7,12 @@ first_name: Gustavo
 #middle_name: R.
 last_name: Flores
 contact_note: >
-  If you want to reach me - send me an email 
+  If you want to reach me - send me an email
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://github.com/darksidehacker/" target="_blank">darksidehacker</a>
-  
+
 keywords: gusman, uam , academic-website, gustavo flores # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -87,7 +87,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Gu's Blog # blog_name will be displayed in your blog page
-blog_description:  On this blog, I share my work and contributions.
+blog_description: On this blog, I share my work and contributions.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 

@@ -8,5 +8,3 @@ category: work
 ---
 
 I've written a thesis for this project, and I'll update this section soon.
-
-

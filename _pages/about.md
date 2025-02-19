@@ -30,5 +30,3 @@ I am a Student of PhD. in Information Sciences and Technologies at the [Universi
 I am also enthusiastic about programing & electronics.
 
 Outside of computer science, I enjoy playing video games, playing guitar, and simply sightseeing!
-
-

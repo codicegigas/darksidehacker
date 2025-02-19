@@ -6,7 +6,7 @@
     - name: Date of Birth
       value: 17th November 1988
     - name: Languages
-      value: Spanish, English. 
+      value: Spanish, English.
 
 - title: Education
   type: time_table
@@ -19,7 +19,7 @@
         - Description 2.
         - title: Reconocimiento de Matriculas Vehiculares de la UAMI.
           contents:
-            - Implementación de un sistema de reconocimiento de matriculas utilizando vision por computadora en un sistema embebido. 
+            - Implementación de un sistema de reconocimiento de matriculas utilizando vision por computadora en un sistema embebido.
     - title: Bachelor of biomedical engineering
       institution: Universidad Autónoma Metropolitana, Iztapalapa, México
       year: 2017
@@ -40,7 +40,7 @@
             - Sub-description 2.
     - title: Biomedical Enginer
       institution: Hospitales Azura
-      year: 
+      year:
       description:
         - Description 1.
         - Description 2.
@@ -48,7 +48,6 @@
     - title: Cardiology Product Specialist
       institution: BTL Industries
       year: 1917-1933
-
 
 - title: Open Source Projects
   type: time_table

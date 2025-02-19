@@ -32,4 +32,3 @@ I thank my family, friends and colleagues for this achievement, especially Dr. B
 <div class="row mt-3">
         {% include figure.liquid loading="eager" path="assets/img/examen_grado_2.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
-
