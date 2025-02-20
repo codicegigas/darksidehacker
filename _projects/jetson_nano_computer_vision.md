@@ -34,10 +34,9 @@ Esta sección concentrare toda la información que vayamos generando en el curso
 <li><a href="https://docs.docker.com/">Docker Documentation</a></li>
 <li><a href="https://developer.nvidia.com/embedded/dlc/Jetson_Nano_Developer_Kit_User_Guide">Jetson User Guide</a></li>
 
-</ul>
----
-Esta pagina se estara actualizando constantemente, mi recomendación es estar pendientes a los cambios.
----
+## </ul>
+
+## Esta pagina se estara actualizando constantemente, mi recomendación es estar pendientes a los cambios.
 
 #### _Semana 1: Introducción a la Jetson Nano y preparación del entorno_
 
