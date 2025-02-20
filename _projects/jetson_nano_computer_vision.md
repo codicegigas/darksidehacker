@@ -20,19 +20,20 @@ Esta sección concentrare toda la información que vayamos generando en el curso
 
 <ul>
     <li><a href="https://www.waveshare.com/wiki/JETSON-NANO-DEV-KIT">JETSON-NANO-DEV-KIT</a> </li>
+    <li><a href="https://jetsonhacks.com/">Jetson Hacks</a></li>
     <li><a href="https://developer.nvidia.com/sdk-manager">SDK Manager</a></li>
 </ul>
 ### Repositorios que revisaremos 
 <ul>
 <li><a href="https://github.com/dusty-nv/jetson-inference">Jetson Inference</a></li>
 <li><a href="https://github.com/dusty-nv/jetson-utils">Jetson Utils</a></li>
-<li><a href="https://github.com/dusty-nv/ros_deep_learning">Install ROS</a></li>
+<li><a href="https://github.com/dusty-nv/ros_deep_learning">ROS</a></li>
 </ul>
 ### Material de apoyo 
 <ul>
-<li><a href="https://github.com/dusty-nv/jetson-inference">Jetson Inference</a></li>
-<li><a href="https://github.com/dusty-nv/jetson-utils">Jetson Utils</a></li>
-<li><a href="https://github.com/dusty-nv/ros_deep_learning">Install ROS</a></li>
+<li><a href="https://docs.docker.com/">Docker Documentation</a></li>
+<li><a href="https://developer.nvidia.com/embedded/dlc/Jetson_Nano_Developer_Kit_User_Guide">Jetson User Guide</a></li>
+
 </ul>
 ---
 Esta pagina se estara actualizando constantemente, mi recomendación es estar pendientes a los cambios.
@@ -42,6 +43,7 @@ Esta pagina se estara actualizando constantemente, mi recomendación es estar pe
 
 - Introducción a la Jetson Nano y sus aplicaciones.
 - Instalación del sistema operativo y configuración básica.
+- Generar claves <a href="https://gusman.me/blog/2025/code/">SSH </a>
 - Introducción a C++: Sintaxis y estructura.
 
 ---

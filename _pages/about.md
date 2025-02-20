@@ -6,7 +6,7 @@ subtitle: <a href='#'>M.Sc</a> Independent researcher
 
 profile:
   align: right
-  image: gus.jpeg
+  image: gus.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>gustavo@abogadasfm.com</p>
