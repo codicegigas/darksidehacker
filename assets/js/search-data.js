@@ -51,7 +51,29 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "";
               },
-            },{id: "post-how-to-generate-ssh-pair-keys",
+            },{id: "post-setting-up-jetson-nano-waveshare",
+      
+        title: "Setting Up Jetson Nano Waveshare",
+      
+      description: "Setting Up Jetson Nano Waveshare",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/setting_up_jetson_nano/";
+        
+      },
+    },{id: "post-setting-up-cmake",
+      
+        title: "Setting Up CMake",
+      
+      description: "Setting Up CMake",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/cmake/";
+        
+      },
+    },{id: "post-how-to-generate-ssh-pair-keys",
       
         title: "How to generate ssh pair keys",
       
@@ -59,7 +81,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2025/code/";
+          window.location.href = "/blog/2025/ssh/";
         
       },
     },{id: "post-graduation-of-m-sc-information-sciences-and-technologies",
