@@ -51,7 +51,51 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "";
               },
-            },{id: "post-setting-up-jetson-nano-waveshare",
+            },{id: "post-setting-up-jupyter-notebooks-amp-labs",
+      
+        title: "Setting Up Jupyter Notebooks &amp; Labs",
+      
+      description: "Configure Jupyter Lab for Jetson Platform",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/jupyter_labs/";
+        
+      },
+    },{id: "post-python-basics",
+      
+        title: "Python Basics",
+      
+      description: "Python Basics",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/python-basics/";
+        
+      },
+    },{id: "post-install-packages-for-jetson-nano",
+      
+        title: "Install Packages for Jetson Nano",
+      
+      description: "Install packages for Jetson Nano",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/install_packages/";
+        
+      },
+    },{id: "post-containers-guide-for-jetson-nano",
+      
+        title: "Containers Guide for Jetson Nano",
+      
+      description: "Explain a Containers on Jetson Nano",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/containers_jetson/";
+        
+      },
+    },{id: "post-setting-up-jetson-nano-waveshare",
       
         title: "Setting Up Jetson Nano Waveshare",
       
