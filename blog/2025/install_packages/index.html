@@ -7,8 +7,8 @@
     --onnx 1.11.0
     --CuPy 9.2.0
     --numpy 1.19.5
-    -numba 0.53.1
-    -OpenCV 4.5.0 (with CUDA)
+    --numba 0.53.1
+    --OpenCV 4.5.0 (with CUDA)
     --pandas 1.1.5
     --scipy 1.5.4
     --scikit-learn 0.24.2
@@ -22,6 +22,27 @@
 </code></pre></div></div> <p>A continuación instalaremos JTOP, similar a HTOP, una herramienta capaz de monitorizar los recursos de nuestro sistema de forma visual.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>pip3 <span class="nb">install</span> <span class="nt">-U</span> jetson-stats
 </code></pre></div></div> <p>Y eso es todo, finalmente para probar que se está ejecutando correctamente, lo llamaremos con el siguiente comando. (Después de realizar un reinicio)</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>reboot
 </code></pre></div></div> <p>Una vez reiniciado esperamos unos minutos y accedemos de nuevo con SSH y verificamos que Jtop se haya instalado.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jtop
+</code></pre></div></div> <hr> <p>OpenCV con soporte CUDA</p> <p>Los siguientes pasos fueron tomados del excelente trabajo de <a href="https://qengineering.eu/install-opencv-on-jetson-nano.html" rel="external nofollow noopener" target="_blank">Q-Enginering</a></p> <p>Revisar Memoria Disponible</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>free <span class="nt">-m</span>
+</code></pre></div></div> <p>Se requieren 6.5 GB! Se recomienda ampliar a 4GB de acuerdo a los siguientes pasos.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>systemctl disable nvzramconfig
+<span class="nb">sudo </span>fallocate <span class="nt">-l</span> 4G /mnt/4GB.swap
+<span class="nb">sudo </span>mkswap /mnt/4GB.swap
+<span class="nb">sudo </span>swapon /mnt/4GB.swap
+</code></pre></div></div> <p>Abrir fstab</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>vim /etc/fstab
+</code></pre></div></div> <p>Al final agregar esta línea para que se quede establecido de forma permanente en la Jetson.</p> <p>/mnt/4GB.swap none swap sw 0 0</p> <p>Obtener el script de GitHub</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://github.com/Qengineering/Install-OpenCV-Jetson-Nano/raw/main/OpenCV-4-5-0.sh
+</code></pre></div></div> <p>Otorgar permisos al script</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo chmod </span>755 ./OpenCV-4-5-0.sh
+</code></pre></div></div> <p>Ejecutar</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./OpenCV-4-5-0.sh
+</code></pre></div></div> <p>Al terminar</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">rm </span>OpenCV-4-5-0.sh
+</code></pre></div></div> <p>Limpiar lo que bajamos (Ahorramos 275 GB de espacio)</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo rm</span> <span class="nt">-rf</span> ~/opencv
+<span class="nb">sudo rm</span> <span class="nt">-rf</span> ~/opencv_contrib
+</code></pre></div></div> <hr> <p>Instalar numba</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/wjakob/tbb.git
+<span class="nb">cd </span>tbb/build
+cmake ..
+make <span class="nt">-j</span>
+<span class="nb">sudo </span>make <span class="nb">install
+sudo </span>apt <span class="nb">install </span>llvm-10
+<span class="nb">export </span><span class="nv">LLVM_CONFIG</span><span class="o">=</span>/usr/bin/llvm-config-10
+pip3 <span class="nb">install </span>llvmlite
+pip3 <span class="nb">install </span>numba
 </code></pre></div></div> <hr> <p>Instalar Pytorch</p> <p>Esta es la ultima version de Pytorch que soporta Python 3.6</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://nvidia.box.com/shared/static/fjtbno0vpo676a25cgvuqc1wty0fkkg6.whl <span class="nt">-O</span> torch-1.10.0-cp36-cp36m-linux_aarch64.whl
 </code></pre></div></div> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get <span class="nb">install </span>libopenblas-base libopenmpi-dev libomp-dev
 </code></pre></div></div> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip3 <span class="nb">install</span> <span class="s1">'Cython&lt;3'</span>

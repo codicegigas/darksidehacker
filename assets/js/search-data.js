@@ -51,7 +51,29 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "";
               },
-            },{id: "post-setting-up-jupyter-notebooks-amp-labs",
+            },{id: "post-linux-scp",
+      
+        title: "Linux SCP",
+      
+      description: "como copiar archivos entre pc",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/scp/";
+        
+      },
+    },{id: "post-instructions-for-labeling-images",
+      
+        title: "Instructions for labeling images",
+      
+      description: "How can I label images with makesense",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/labeling/";
+        
+      },
+    },{id: "post-setting-up-jupyter-notebooks-amp-labs",
       
         title: "Setting Up Jupyter Notebooks &amp; Labs",
       
