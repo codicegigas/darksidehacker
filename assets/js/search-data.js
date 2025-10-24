@@ -161,6 +161,28 @@ ninja.data = [{
           window.location.href = "/blog/2024/graduation/";
         
       },
+    },{id: "post-a-post-with-pseudo-code",
+      
+        title: "a post with pseudo code",
+      
+      description: "this is what included pseudo code could look like",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/pseudocode/";
+        
+      },
+    },{id: "post-pseudocode-md-zone",
+      
+        title: "Pseudocode.md:zone",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/pseudocode.md-Zone/";
+        
+      },
     },{id: "news-course-jetson-nano-for-computer-vision",
           title: 'Course: Jetson Nano for Computer Vision',
           description: "",
