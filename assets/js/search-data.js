@@ -51,9 +51,9 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "";
               },
-            },{id: "post-a-post-with-pseudo-code",
+            },{id: "post-colaboracion-github",
       
-        title: "a post with pseudo code",
+        title: "Colaboracion Github",
       
       description: "this is what included pseudo code could look like",
       section: "Posts",
