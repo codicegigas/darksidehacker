@@ -51,18 +51,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "";
               },
-            },{id: "post-colaboracion-github",
-      
-        title: "Colaboracion Github",
-      
-      description: "this is what included pseudo code could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2025/pseudocode/";
-        
-      },
-    },{id: "post-linux-scp",
+            },{id: "post-linux-scp",
       
         title: "Linux SCP",
       
@@ -82,6 +71,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2025/labeling/";
+        
+      },
+    },{id: "post-autenticar-cuenta-de-github-vía-ssh",
+      
+        title: "Autenticar cuenta de GitHub vía SSH",
+      
+      description: "La autenticación consiste en crear primero las llaves en el equipo.this is what included pseudo code could look like",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/pseudocode/";
         
       },
     },{id: "post-setting-up-jupyter-notebooks-amp-labs",
