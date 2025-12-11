@@ -172,6 +172,17 @@ ninja.data = [{
           window.location.href = "/blog/2024/graduation/";
         
       },
+    },{id: "post-a-post-with-tikzjax",
+      
+        title: "a post with TikZJax",
+      
+      description: "this is what included TikZ code could look like",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2023/tikzjax/";
+        
+      },
     },{id: "news-course-jetson-nano-for-computer-vision",
           title: 'Course: Jetson Nano for Computer Vision',
           description: "",
