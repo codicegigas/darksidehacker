@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "";
               },
-            },{id: "post-linux-scp",
+            },{id: "post-capítulo-1-configuración-de-tarjeta-de-desarrollo-de-jetson-nano",
+      
+        title: "Capítulo 1: Configuración de tarjeta de desarrollo de Jetson nano",
+      
+      description: "Configuración de tarjeta de desarrollo de Jetson nano y flasheo",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/configuracion-jetson-nano/";
+        
+      },
+    },{id: "post-linux-scp",
       
         title: "Linux SCP",
       
