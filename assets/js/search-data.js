@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "";
               },
-            },{id: "post-capítulo-2-instalación-de-jetson-sdk-components",
+            },{id: "post-capítulo-3-verificación",
+      
+        title: "Capítulo 3: Verificación",
+      
+      description: "Verificación post-instalación de componentes y monitoreo con jtop",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/capitulo-3-verificacion/";
+        
+      },
+    },{id: "post-capítulo-2-instalación-de-jetson-sdk-components",
       
         title: "Capítulo 2: Instalación de Jetson SDK Components",
       
